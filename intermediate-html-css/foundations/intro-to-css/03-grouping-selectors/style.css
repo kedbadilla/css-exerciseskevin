@@ -1,0 +1,13 @@
+/* Add CSS Styling */
+.read {
+    color: white;
+    background-color: black;
+}
+.lea {
+    background-color: yellow;
+}
+.read
+.lea {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
