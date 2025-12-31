@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 html, body {
   height: 100%;
 }
-
+.header {
+  display: flex;
+  font-weight: bold;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -15,11 +23,33 @@ body {
   justify-content: center;
 }
 
+.first {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.text {
+  margin-left: 50px;
+}
+.continue{
+  margin-left: 40px;
+}
+.two{
+  margin-left: 10px;
+  margin-top: 10px;
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .icon {
@@ -33,6 +63,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: flex-start;
+  
 }
 
 .close-button {
@@ -48,6 +80,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: 80px;
+  
 }
 
 button {

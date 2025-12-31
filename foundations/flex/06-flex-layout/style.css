@@ -5,17 +5,52 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
 }
-
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 0;
+}
+.left-links{
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+}
+.right-links{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: #eeeeee;
+  margin-bottom: 0;
+}
 img {
   width: 600px;
 }
-
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
+  margin: 0;
   background: #eee;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 input {
@@ -23,4 +58,14 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+a{
+  font-size: 22px;
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+}
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
 }
